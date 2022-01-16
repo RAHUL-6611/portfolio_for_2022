@@ -42,6 +42,10 @@ export const GlobalStyle = createGlobalStyle`
             }
 
         }
+
+        #home{
+            background: #fff;
+        }
     }
 }
 

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Header from "./components/Header"
+import {Header, Hero} from "./components"
 import { GlobalStyle } from "./styles/global"
 import 'react-toastify/dist/ReactToastify.css'
 
@@ -8,6 +8,8 @@ function App() {
     <>
     <GlobalStyle />
       <Header />
+      <Hero />
+      
     </>
   )
 }
