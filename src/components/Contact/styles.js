@@ -29,7 +29,6 @@ export const Container = styled.section`
                         align-items:center;
                         justify-content:center;
                         background:var(--green);
-                        // flex:.05;
                         padding:0.6rem 4rem;
                         border-radius:20px;
 
@@ -37,6 +36,21 @@ export const Container = styled.section`
                                 width:40px;
                                 height:40px;
                                 margin:10px 20px;
+                        }
+
+                        a{
+                                text-decoration:none;
+                                color:#000;
+                        }
+                }
+
+                @media (max-width:831px){
+                        flex-direction:column;
+
+                        & > div{
+                                width:80%;
+                                padding: 3rem 2rem;
+                                flex-direction:column;
                         }
                 }
         }

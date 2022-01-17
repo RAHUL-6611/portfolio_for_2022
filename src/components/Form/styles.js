@@ -17,7 +17,7 @@ export const Container = styled.div`
         gap:1rem;
 
         input,textarea{
-            width:60rem;
+            width:40%;
             padding:1rem 2rem;
             border-radius:20px;
             border:none;
@@ -29,7 +29,14 @@ export const Container = styled.div`
             &::placeholder{
                 color:#fff;
                 font-weight:600;
-            }    
+            }
+            
+            @media (max-width: 1125px) {
+                width:60%;
+            }
+            @media (max-width: 600px) {
+                width:80%;
+            }
         }
 
         textarea {
