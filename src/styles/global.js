@@ -7,6 +7,19 @@ export const GlobalStyle = createGlobalStyle`
     --black: #212121;
     --green: #23ce6b;
     --blue: #016fb9;
+    --gradient-shadow: linear-gradient(
+		45deg,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000
+	);
     scroll-padding-top: 10rem;
 
     &.light{
@@ -44,7 +57,7 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         #home{
-            background: #fff;
+            background: rgba(255,255,255,0);
         }
     }
 }
@@ -60,12 +73,26 @@ body{
     -webkit-font-smoothing: antialiased;
     background-color: var(--black);
     color:#fff;
+
 }
 
 html{
     font-size: 62.5%;
 }
 
+li{
+    list-style:none;
+}
+
+p,h1,h2,h3,h5,h6,span,img{
+    font-family: 'Red Hat Display', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 a{
     text-decoration:none;

@@ -40,7 +40,7 @@ const index = () => {
                     <NavHashLink smooth to="#home" onClick={closedMenu}>
                         Home
                     </NavHashLink>
-                    <NavHashLink smooth to="#portfolio" onClick={closedMenu}>
+                    <NavHashLink smooth to="#about" onClick={closedMenu}>
                         About me
                     </NavHashLink>
                     <NavHashLink smooth to="#portfolio" onClick={closedMenu}>

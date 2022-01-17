@@ -7,7 +7,7 @@ export const Container = styled.section`
     flex-direction: row;
     justify-content: space-between;
     gap: 5rem;
-    background: #000;
+    background: rgba(0,0,0,0);
 
     .hero-text{
 
@@ -23,7 +23,12 @@ export const Container = styled.section`
         }
         h1{
             font-size: 3rem;
+            margin-bottom:5rem;
 
+        }
+
+        h4{
+          font-size:4rem;
         }
     }
 
@@ -33,5 +38,37 @@ export const Container = styled.section`
         align-items: flex-start;
         justify-content: center;
     }
+
+    @media(max-width: 960px){
+        display: block;
+        margin-top: 15%;
+        .hero-text{
+    
+          h1{
+              font-size: 4rem;
+          }
+        }
+        
+        .hero-image{
+          display: none;
+        }
+      }
+
+    .button{
+        // margin-top: 5rem;
+        padding: 1.4rem 6rem;
+      }
+    
+    @media(max-width: 600px){
+        margin-top: 25%;
+      }
+    @media(max-width: 480px){
+        margin-top: 35%;
+      }
+      
+    @media(max-width: 300px){
+        padding: 15% 1rem;
+      }
+
 
 `
