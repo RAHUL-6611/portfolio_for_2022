@@ -26,7 +26,7 @@ const index = () => {
 
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/jtsoares/"
+          href="https://www.linkedin.com/in/rahul-parmar-7b52a71a0/"
           target="_blank"
           rel="noreferrer"
         >
@@ -34,7 +34,7 @@ const index = () => {
         </a>
 
         <a
-          href="https://github.com/joaotuliojt"
+          href="https://github.com/rahul-6611"
           target="_blank"
           rel="noreferrer"
         >
@@ -42,7 +42,7 @@ const index = () => {
         </a>
 
         <a
-          href="https://www.instagram.com/tulio_joaob/"
+          href="https://www.instagram.com/_rahulparmar_23002/"
           target="_blank"
           rel="noreferrer"
         >
@@ -50,7 +50,7 @@ const index = () => {
         </a>
 
         <a
-          href="https://discord.com/users/426120432991862784"
+          href="https://discord.gg/9VW9wHBH6z"
           target="_blank"
           rel="noreferrer"
         >
