@@ -1,7 +1,7 @@
 import React,{useEffect, useRef} from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
 import {Container} from "./style"
-import me from "../../assets/svg/character5.svg"
+// import me from "../../assets/svg/character5.svg"
 import logo from "../../assets/rp4.png"
 import { BrowserRouter } from "react-router-dom"
 import { NavHashLink } from "react-router-hash-link"
