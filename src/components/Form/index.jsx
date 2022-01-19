@@ -8,7 +8,7 @@ import validator from 'validator'
 
 
 const index = () => {
-    const [state, handleSubmit]= useForm("xknyorlg");
+    const [state, handleSubmit]= useForm("pikachu");
     const [isvalidEmail, setIsValildEmail] = useState(false);
     const [isHuman, setIsHuman] = useState(false);
     const [message, setMessage] = useState("");
@@ -76,10 +76,10 @@ const index = () => {
                     field="message"
                     errors={state.errors}
                 /> 
-                <ReCAPTCHA
+                {/* <ReCAPTCHA
                     sitekey="6LeiryMeAAAAAMQqPiVYaxcWExyeeyAmrZ6GAZ1B"
                     onChange={(e)=>setIsHuman(true)}>
-                </ReCAPTCHA>
+                </ReCAPTCHA> */}
                 <button
                     type="submit"
                     disabled={state.submitting || !isvalidEmail || !message}

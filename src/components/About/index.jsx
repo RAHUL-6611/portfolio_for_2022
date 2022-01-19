@@ -23,10 +23,9 @@ const index = () => {
                 
                 <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
                     <p className="details">
-                    I'm a Computer Science Sophomore @ Puducherry Technological University(PTU).
-                    A self-motivated undergrad interested in exploring new things and having new experiences.
-                    Always ready to upskill myself 🐱‍🏍
-                    </p>
+                      I'm 19 years old Full Stack developer from pune, India.
+                      Working on react / react native past 1.2 years. currently learning decentralization / Blockchain.
+                                        </p>
         </ScrollAnimation>
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}> */}
         <ScrollAnimation animateIn="flipInX"  style={{marginTop: "2rem", marginBottom: "2rem"}}>

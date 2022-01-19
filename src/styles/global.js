@@ -65,9 +65,20 @@ export const GlobalStyle = createGlobalStyle`
             color: white;
         }
 
-
         #home{
             background: rgba(255,255,255,0);
+        }
+
+        form{
+            input,textarea{
+                border: 1px solid #000;
+                color:#000;
+
+                &::placeholder{
+                    color:#000;
+                    
+                }
+            }
         }
     }
 }
