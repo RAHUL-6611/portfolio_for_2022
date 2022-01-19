@@ -49,12 +49,7 @@ const index = () => {
             </ScrollAnimation>
           </div>
 
-          {/* <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-            <img src={vueIcon} alt="Vue" />
-          </ScrollAnimation>
-          </div> */}
-
+     
           <div className="hability">
           <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}> 
             <img src={jsIcon} alt="JavaScript" />

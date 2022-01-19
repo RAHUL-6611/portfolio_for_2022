@@ -18,6 +18,8 @@ import sassIcon from "../../assets/assets/sass-icon.svg";
 import typescriptIcon from "../../assets/assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/assets/vscode-icon.svg";
 import vueIcon from "../../assets/assets/vue-icon.svg";
+import python from "../../assets/python.png"
+import solidity from "../../assets/solidity.svg"
 
 const index = () => {
     return (
@@ -202,7 +204,12 @@ const index = () => {
                 "height": 20
               },
               {
-                "src": vueIcon,
+                "src": python,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": solidity,
                 "width": 20,
                 "height": 20
               },

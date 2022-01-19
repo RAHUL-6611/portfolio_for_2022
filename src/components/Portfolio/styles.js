@@ -76,10 +76,21 @@ export const Container = styled.section`
                 margin-bottom: 3rem;
                 
                 .project-links{
-                    width:50px;
-                    height:50px;
+                    // flex:1;
+                    // width:100%;
+
+                    a{
+                        padding:10px;
+                        img{
+
+                            width:45px;
+                            height :45px;
+                        }
+
+                    }
                 }
             }
+                
 
             .body{
                 margin-bottom:2rem;

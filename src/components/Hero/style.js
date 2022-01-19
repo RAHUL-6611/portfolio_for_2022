@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    // padding-top: 15%;
-    padding: 15% 7rem;
+    // padding: 0 7rem;
+    // padding-top:10%;
+    // padding-bottom:15%;
+    padding: 10% 5rem 15% 7rem;
     display: flex;  
     flex-direction: row;
-    justify-content: space-between;
-    gap: 5rem;
+    justify-content: space-around;
+    gap: 1rem;
     background: rgba(0,0,0,0);
 
     .hero-text{
@@ -30,17 +32,50 @@ export const Container = styled.section`
         h4{
           font-size:4rem;
         }
+
+        @media (min-width: 768px){
+          padding-left:4rem; 
+          padding-top:8rem;
+        }
     }
 
     .hero-image{
-        margin-top:-4rem;
+        // margin-top:-6rem;
         display:flex;
         align-items: flex-start;
         justify-content: center;
+
+        .hero-image-logo{
+          width:650px;
+          height:650px;
+
+        }
+
+        @media (max-width: 568px){
+          .hero-image-logo{
+            width:450px;
+            height:450px;
+            }
+        }
+
+    .hero-image-blur{
+      &::after{
+        content:"";
+        position:absolute;
+        width:80%;
+        bottom:0px;
+        left:50px;
+        height:60px;
+        background: var(--green);
+  }
+    }
+  }
     }
 
+
     @media(max-width: 960px){
-        display: block;
+        // display: block;
+        flex-direction: column;
         margin-top: 15%;
         .hero-text{
     
@@ -48,14 +83,9 @@ export const Container = styled.section`
               font-size: 4rem;
           }
         }
-        
-        .hero-image{
-          display: none;
-        }
       }
 
     .button{
-        // margin-top: 5rem;
         padding: 1.4rem 6rem;
       }
     

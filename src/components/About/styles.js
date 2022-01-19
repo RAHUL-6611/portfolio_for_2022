@@ -6,6 +6,7 @@ export const Container = styled.section`
     justify-content: space-between;
     gap:15rem;
     padding: 10% 10%;
+    margin-top:8rem;
 
     .left{
         z-index:10;

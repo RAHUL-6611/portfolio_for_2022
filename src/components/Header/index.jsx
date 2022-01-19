@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container} from './style'
-import resume from "./CV_JoaoTulio.pdf"
+import resume from "../../assets/7thresumeedition.pdf"
 import { BrowserRouter as Router} from "react-router-dom"
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState} from 'react'
