@@ -77,7 +77,7 @@ const index = () => {
                     errors={state.errors}
                 /> 
                 <ReCAPTCHA
-                    sitekey="6LeiryMeAAAAAMQqPiVYaxcWExyeeyAmrZ6GAZ1B"
+                    sitekey="6LeiryMeAAAAAJsU19pY-7lN_UT7zIBaBCPlquV1"
                     onChange={(e)=>setIsHuman(true)}>
                 </ReCAPTCHA>
                 <button
