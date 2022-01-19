@@ -82,7 +82,7 @@ const index = () => {
                 </ReCAPTCHA>
                 <button
                     type="submit"
-                    disabled={state.submitting || !isvalidEmail || !message || !isHuman}
+                    disabled={state.submitting || !isvalidEmail || !message}
                     >
                     Submit
                 </button>
