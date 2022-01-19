@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container} from './style'
-import resume from "../../assets/7thresumeedition.pdf"
+import resume from "../../assets/resume.pdf"
 import { BrowserRouter as Router} from "react-router-dom"
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState} from 'react'
@@ -57,7 +57,6 @@ const index = () => {
                     onClick={()=> { 
                         setIsActive(!isActive);
                     }}
-                    // aria-label={isActive ? "Fechar menu" : "Barr menu"}
                     >
                 </div>
 
