@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const Container = styled.footer`
-    background-color: #2b2b2b;
+    // background-color: #2b2b2b;
+    background: rgba(255,255,255,0);
     padding: 3rem 10rem;
     margin-top: 15rem;
     display:flex;

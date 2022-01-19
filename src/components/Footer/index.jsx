@@ -10,7 +10,7 @@ import React from 'react'
 
 const index = () => {
     return (
-        <Container id="Footer">
+        <Container id="footer">
              <a href="/" className="logo">
         <span>R</span>
         <span>ahooooo</span>

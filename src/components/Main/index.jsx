@@ -4,7 +4,6 @@ import Particles from "react-tsparticles";
 import Hero from "../Hero"
 import About from "../About"
 import PortFolio from "../Portfolio"
-import Footer from "../Footer"
 import Contact from "../Contact"
 
 import boostrapIcon from "../../assets/assets/bootstrap-icon.svg";
@@ -17,7 +16,6 @@ import reactIcon from "../../assets/assets/react-icon.svg";
 import sassIcon from "../../assets/assets/sass-icon.svg";
 import typescriptIcon from "../../assets/assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/assets/vscode-icon.svg";
-import vueIcon from "../../assets/assets/vue-icon.svg";
 import python from "../../assets/python.png"
 import solidity from "../../assets/solidity.svg"
 
@@ -259,7 +257,6 @@ const index = () => {
     <About />
     <PortFolio />
     <Contact />
-    <Footer />
 </Container>
     )
 }

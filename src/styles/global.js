@@ -56,6 +56,12 @@ export const GlobalStyle = createGlobalStyle`
 
         }
 
+        #footer{
+            color:black;
+            background: rgba(255,255,255,0);
+        }
+
+
         #home{
             background: rgba(255,255,255,0);
         }
