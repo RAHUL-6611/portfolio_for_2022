@@ -61,6 +61,10 @@ export const GlobalStyle = createGlobalStyle`
             background: rgba(255,255,255,0);
         }
 
+        #portfolio{
+            color: white;
+        }
+
 
         #home{
             background: rgba(255,255,255,0);

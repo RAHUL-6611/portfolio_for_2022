@@ -76,8 +76,7 @@ export const Container = styled.section`
                 margin-bottom: 3rem;
                 
                 .project-links{
-                    // flex:1;
-                    // width:100%;
+                
 
                     a{
                         padding:10px;
@@ -85,6 +84,10 @@ export const Container = styled.section`
 
                             width:45px;
                             height :45px;
+                            background:white;
+                            border-radius:50px;
+                            padding:10px
+                            
                         }
 
                     }
