@@ -15,7 +15,7 @@ const ProjectCard =({title, subtitle,techlist, deploy,gitlink, deploylink})=>(
                         <img src={githubIcon} alt="GitHub" />
                       </a>
                       
-                      {deploy ? (<a target="_blank" href="https://cryptopunk-nftminter.netlify.app/" rel="noreferrer">
+                      {deploy ? (<a target="_blank" href={deploylink} rel="noreferrer">
                         <img src={externalLinkIcon} alt="alt" />
                       </a>):""}
                     
@@ -44,6 +44,14 @@ const index = () => {
             <h2>My Recent Projects</h2>
             <div className="projects">
               <ProjectCard 
+                title="Travel_duniya" 
+                subtitle="Created a full stack application as an online travel advisor which helps you to find restaurants, hotels and attraction on your current location, its fast and user friendly " 
+                techlist={['React Js','Js',"Material UI","Google map api"]}
+                gitlink={"https://github.com/RAHUL-6611/Travel_duniya"}
+                deploylink={"https://duniyaghumo.netlify.app/"}
+                deploy
+                />
+              <ProjectCard 
                 title="Video Calling App" 
                 subtitle="Created a video calling app in react native , using the vox-implant sdk and api,
                 fast and easy to use user interface similar to google meet" 
@@ -65,14 +73,6 @@ const index = () => {
                 techlist={['React Native','Js',"Material UI","api"]}
                 gitlink={"https://github.com/RAHUL-6611/Avenger-bike-lovers-app"}
                 
-                />
-              <ProjectCard 
-                title="Travel_duniya" 
-                subtitle="Created a full stack application as an online travel advisor which helps you to find restaurants, hotels and attraction on your current location, its fast and user friendly " 
-                techlist={['React Js','Js',"Material UI","Google map api"]}
-                gitlink={"https://github.com/RAHUL-6611/Travel_duniya"}
-                deploylink={"https://duniyaghumo.netlify.app/"}
-                deploy
                 />
               <ProjectCard 
                 title="Desi_dukan" 
