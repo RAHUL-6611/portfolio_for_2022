@@ -51,14 +51,20 @@ const index = () => {
                 deploylink={"https://neurolingua-rahul.netlify.app/"}
                 deploy
                 />
-                </div>
-            <div className="projects">
               <ProjectCard 
                 title="Goverment College Website" 
                 subtitle="Led a team of 6 members to build a complete college website , guided the frontent team and cms team to create a official website for teachers and students" 
                 techlist={['React Js',"Vite","axios",'Tailwind']}
                 gitlink={"https://github.com/RAHUL-6611/build"}
                 deploylink={"https://puducherry-technological-university-final-build.netlify.app/"}
+                deploy
+                />
+              <ProjectCard 
+                title="Corona Tracker" 
+                subtitle="Made a Corona tracker Solution which shows accurate and detailed current corona status with live charts and data" 
+                techlist={['React Js',"Vite","axios",'API','Css modules']}
+                gitlink={"https://github.com/RAHUL-6611/corona_tracker"}
+                deploylink={"https://quick-corona-tracker.netlify.app/"}
                 deploy
                 />
               <ProjectCard 
