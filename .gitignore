@@ -3,6 +3,6 @@ node_modules
 dist
 dist-ssr
 *.local
-src/assets
+src/assets/assets
 yarn-error.log
 src/assets/svg

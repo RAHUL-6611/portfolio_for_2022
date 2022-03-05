@@ -23,7 +23,7 @@ const index = () => {
                 
                 <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
                     <p className="details">
-                      I'm 19 years old Full Stack developer from pune, India.
+                      I'm 20 years old Full Stack developer from pune, India.
                       Working on react / react native past 1.2 years. currently learning decentralization / Blockchain.
                                         </p>
         </ScrollAnimation>

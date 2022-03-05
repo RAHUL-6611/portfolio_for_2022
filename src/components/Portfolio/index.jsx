@@ -47,6 +47,14 @@ const index = () => {
                 title="Travel_duniya" 
                 subtitle="Created a full stack application as an online travel advisor which helps you to find restaurants, hotels and attraction on your current location, its fast and user friendly " 
                 techlist={['React Js','Js',"Material UI","Google map api"]}
+                gitlink={"https://github.com/RAHUL-6611/neurolingua-development"}
+                deploylink={"https://neurolingua-rahul.netlify.app/"}
+                deploy
+                />
+              <ProjectCard 
+                title="Travel_duniya" 
+                subtitle="Created a full stack application as an online travel advisor which helps you to find restaurants, hotels and attraction on your current location, its fast and user friendly " 
+                techlist={['React Js','Js',"Material UI","Google map api"]}
                 gitlink={"https://github.com/RAHUL-6611/Travel_duniya"}
                 deploylink={"https://duniyaghumo.netlify.app/"}
                 deploy
