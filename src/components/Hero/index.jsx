@@ -38,7 +38,7 @@ const index = () => {
                 <h2 >I'm Rahul Parmar!</h2>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeInUp" delay={0.4*1000}>
-                <h1>Full Stack Developer | BlockChain 💹 Researcher</h1>
+                <h1>Full Stack Developer | AWS Cloud practitioner</h1>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>
             <BrowserRouter>

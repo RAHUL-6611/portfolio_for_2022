@@ -23,13 +23,13 @@ const index = () => {
                 
                 <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
                     <p className="details">
-                      I'm 20 years old Full Stack developer from pune, India.
-                      Working on react / react native past 1.2 years. currently learning decentralization / Blockchain.
+                      I'm a Full Stack developer from pune, India.
+                      Working on frontend technologies from past 2 years. currently improving my AWS skills
                                         </p>
         </ScrollAnimation>
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}> */}
         <ScrollAnimation animateIn="flipInX"  style={{marginTop: "2rem", marginBottom: "2rem"}}>
-          <p className="current">Currently learning polygon network 💠 and Next js</p>
+          <p className="current">AWS Cloud Practitioner Certfied</p>
         {/* </ScrollAnimation> */}
         </ScrollAnimation>
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
